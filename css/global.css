@@ -1,0 +1,34 @@
+
+body {
+  margin: 0px;
+  font-family: 'Heebo', sans-serif;
+}
+header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  margin-right: 40px;
+  color: #212121;
+  font-size: 17px;
+}
+
+nav a:hover {
+  color: #bdbdbd;
+}
+
+footer {
+  background: #212121;
+  width: 100%;
+  height: 200px;
+  color: #bdbdbd;
+  font-size: 12px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}

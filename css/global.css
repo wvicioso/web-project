@@ -12,6 +12,26 @@ header {
   align-items: center;
 }
 
+body {
+  background-color: #212121;
+}
+
+
+body > * {
+  opacity: 0;
+  background-color: #fff;
+  transition: 500ms;
+}
+
+body header {
+  opacity: 1;
+  transition: 0ms;
+}
+
+body footer {
+  background-color: #212121;
+}
+
 nav a {
   text-decoration: none;
   margin-right: 40px;

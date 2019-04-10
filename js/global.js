@@ -1,5 +1,9 @@
 function fadeIn(i=1) {
   var bodyElems = document.body.children;
+  console.log(bodyElems)
+  console.log(bodyElems.length)
+  console.log(i)
+
   setTimeout(function(){
     bodyElems[i].style.opacity = 1;
     if (bodyElems.length != i) {
@@ -10,5 +14,5 @@ function fadeIn(i=1) {
 }
 
 window.addEventListener("load", function(){
-  fadeIn()
+  fadeIn();
 });

@@ -1,24 +1,4 @@
 
-body {
-  background-color: #212121;
-}
-
-
-body > * {
-  opacity: 0;
-  background-color: #fff;
-  transition: 500ms;
-}
-
-body header {
-  opacity: 1;
-  transition: 0ms;
-}
-
-body footer {
-  background-color: #212121;
-}
-
 .hero {
   display: flex;
   align-items: center;
@@ -45,6 +25,7 @@ body footer {
 .hero h1 {
   color: #fff;
   font-family: 'Montserrat', sans-serif;
+  font-family: 'Exo', sans-serif;
   font-size: 72px;
   font-weight: 100;
   z-index: 11;

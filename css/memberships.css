@@ -1,0 +1,13 @@
+body{
+  background-color: white;
+}
+
+h1 {
+  color: #F44336;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Exo', sans-serif;
+  font-size: 72px;
+  font-weight: 100;
+  z-index: 11;
+  margin-left: 10%;
+};

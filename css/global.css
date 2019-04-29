@@ -26,6 +26,8 @@ body > * {
 body header {
   opacity: 1;
   transition: 0ms;
+  background-color: #212121;
+
 }
 
 body footer {
@@ -35,14 +37,14 @@ body footer {
 nav a {
   text-decoration: none;
   margin-right: 40px;
-  color: #212121;
+  color: #fff;
   font-size: 15px;
   /* font-weight: bold; */
   text-transform: uppercase;
 }
 
 nav a:hover {
-  color: #bdbdbd;
+  color: #424242;
 }
 
 footer {

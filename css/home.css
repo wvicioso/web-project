@@ -25,6 +25,7 @@
   left: 20px;
 }
 
+
 .apply-flex {
   display: flex;
   flex-direction: row;
@@ -45,7 +46,8 @@
 .left-side {
   width: 50%;
   height: 600px;
-  background-image: url('http://theadventuresummit.com/wp-content/uploads/2016-Bouldering-Competition-683x1024.jpg');
+  /* background-image: url('http://theadventuresummit.com/wp-content/uploads/2016-Bouldering-Competition-683x1024.jpg'); */
+  background-image: url('https://s3.amazonaws.com/fitt-app/articles/0c1d8850177b4e9e990dec237f7adecb.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -92,11 +94,13 @@ h2 {
   width: 70%;
   font-family: 'Exo', sans-serif;
   font-family: 'Montserrat', sans-serif;
-  font-size: 21px;
-  text-align: center;
+  font-size: 17px;
+  /* font-weight: bold; */
+  text-align: justify;
   color: #424242;
   margin-top: 0;
   padding-top: 0;
+
 }
 
 .button {

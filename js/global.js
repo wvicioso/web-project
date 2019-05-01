@@ -32,6 +32,16 @@ function setWidth() {
    // document.body.style.width = window.innerWidth - 10;
 }
 
+function openMenu() {
+  var elem = document.getElementsByClassName('mobile-nav')[0];
+  elem.style.marginLeft = '0';
+}
+
+function closeMenu() {
+  var elem = document.getElementsByClassName('mobile-nav')[0];
+  elem.style.marginLeft = '-80%';
+}
+
 window.addEventListener("load", function(){
   setWidth();
   fadeIn();

@@ -23,12 +23,17 @@ function slideAboutHeader() {
   var elem = document.getElementsByClassName('101')[0];
   setTimeout(function(){
     if (elem) {
-      elem.style.marginLeft = '50px';
+      elem.style.marginLeft = '0';
     }
   }, 500)
 }
 
+function setWidth() {
+   // document.body.style.width = window.innerWidth - 10;
+}
+
 window.addEventListener("load", function(){
+  setWidth();
   fadeIn();
   slideInRightSide();
   slideAboutHeader();

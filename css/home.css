@@ -55,7 +55,7 @@ h2 {
   position: absolute;
   right: -30%;
   vertical-align: middle;
-  width: 30%;
+  width: 380px;
   height: 600px;
   display: flex;
   flex-direction: column;
@@ -114,4 +114,25 @@ h2 {
   /* padding: 27px 2px; */
   /* font-size: 27px; */
   background-color: #F4433680;
+}
+
+@media screen and (max-width: 860px) {
+  .apply-flex {
+    flex-direction: column;
+  }
+
+  .left-side {
+    transition: 0s;
+    width: 100%;
+    height: 200px;
+  }
+
+  .right-side {
+    transition: 0s;
+    position: relative;
+    right: 0;
+    width: 100%;
+    padding-bottom: 50px;
+  }
+
 }

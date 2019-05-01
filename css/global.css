@@ -2,6 +2,7 @@
 body {
   margin: 0px;
   font-family: 'Heebo', sans-serif;
+  /* width: 1280px; */
 }
 
 header {
@@ -18,11 +19,9 @@ header {
   left: 20px;
 }
 
-
 body {
   background-color: #212121;
 }
-
 
 body > * {
   opacity: 0;
@@ -85,6 +84,7 @@ footer {
   width: 100%;
   margin-bottom: 15px;
   padding: 50px 0 50px 0;
+  flex-wrap: wrap;
 }
 
 .footer-itm * {
@@ -126,4 +126,20 @@ footer {
   position: absolute;
   bottom: 0;
   padding: 10px 0 10px 0;
+}
+
+@media screen and (max-width: 860px) {
+  .footer-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 50px 0 50px 0;
+    flex-wrap: wrap;
+  }
+  .logo-footer {
+    margin-left: 0;
+  }
 }

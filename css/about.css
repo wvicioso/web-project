@@ -1,3 +1,6 @@
+/* * {
+  border: 1px solid green;
+} */
 
 .hero {
   display: flex;
@@ -24,7 +27,6 @@
 
 .hero h1 {
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
   font-family: 'Exo', sans-serif;
   font-size: 72px;
   font-weight: 100;
@@ -34,7 +36,18 @@
 .hero h1 span {
   color: #F44336;
   font-weight: 100;
+  margin-left: 500px;
+  transition: .5s
+}
 
+h2 {
+  width: 70%;
+  text-align: left;
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Exo', sans-serif;
+  color: #F44336;
 }
 
 .details {
@@ -43,21 +56,24 @@
   justify-content: center;
   flex-direction: column;
   width: 100%;
+  padding-top: 100px;
 }
 
 .details .sub-text {
+  color: #212121;
   width: 70%;
-  text-align: center;
-  font-size: 17px;
+  text-align: left;
+  font-size: 21px;
   line-height: 30px;
-  margin: 20px;
-  padding-top: 5%;
+  padding-bottom: 50px;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 .detail-items {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-around;
   width: 90%;
   padding: 5%;
@@ -71,11 +87,33 @@
   width: 25%;
 }
 
+.item h3 {
+  font-size: 35px;
+  font-family: 'Exo', sans-serif;
+  color: #212121;
+  margin: 0;
+  padding: 0;
+}
+
 .item i {
   font-size: 75px;
   color: #f44336;
+  transition: .15s;
 }
+
+.item i:hover {
+  color: #f57c00;
+}
+
 
 .item p {
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.divider {
+  width: 90%;
+  height: 10px;
+  background-image: linear-gradient(to right, #f44336 , #ff9800);
+  /* border: 1px solid #e0e0e0; */
 }

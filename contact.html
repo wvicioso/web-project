@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-  <title>Ascent - Indoor Rock Climbing</title>
+  <title>Ascent - Contact</title>
   <meta charset="utf-8">
   <link rel="shortcut icon" href="./images/white-logo.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,8 @@
   <link href="https://fonts.googleapis.com/css?family=Heebo|Montserrat:300,400" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Exo:900" rel="stylesheet">
   <link rel="stylesheet" href="./css/global.css">
-  <link rel="stylesheet" href="./css/home.css">
+  <!-- <link rel="stylesheet" href="./css/memberships.css"> -->
+  <link rel="stylesheet" href="./css/contact.css">
   <script type="text/javascript" src="./js/global.js"></script>
 </head>
 <body>
@@ -35,14 +36,26 @@
       <a href="./location.html">Location</a>
     </nav>
   </header>
-  <div class="apply-flex">
-    <div class="left-side"></div>
-    <div class="right-side">
-      <h1>Ascent</h1>
-      <p class="details">Boasting one of the largest indoor rock climbing facilities in NYC, our venue is so huge, that you will never have to wait your turn, making us perfect for beginners and experts alike!</p>
-      <a href="./memberships.html" class="button">Join Today</a>
-    </div>
-  </div>
+
+  <h1>Contact</h1>
+
+  <p id="contact-p">Please fill the form below if you have any questions.</p>
+
+  <form id="form" onsubmit="return validateForm(event)">
+    <label for="Name">Name <span id="nameError">Required Field</span></label>
+    <input name="Name" id="Name">
+
+    <label for="Email">Email <span id="emailError">Invalid Email</span></label>
+    <input name="Email" id="Email">
+
+    <label for="Inquiry">Inquiry <span id="inquiryError">Required Field</span></label>
+    <textarea name="Inquiry"  id="Inquiry" rows="8" cols="80"></textarea>
+    <input id="submit" type="submit" value="Submit">
+  </form>
+
+
+  <p id="thankyou" style="width: 100%; text-align: center; display: none;">Thank you for your submission!</p>
+
   <footer>
     <div class="footer-wrapper">
       <div class="footer-itm">

@@ -1,0 +1,81 @@
+.event-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.event-modal {
+  width: 300px;
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: green;
+  margin: 0 auto;
+  margin-bottom: 50px;
+
+  box-shadow: 0 0 10px #21212160;
+
+}
+.date {
+  background-color: white;
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.info {
+  width: 70%;
+  height: 100%;
+  background-color: black;
+  position: relative;
+  background-image: url('https://cdn.traveltripper.io/site-assets/192_800_22150/media/2018-12-19-165019/large_royalton-park-avenue-indoor-fitness-options-nyc-chelsea-piers.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: 'Exo', sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  opacity: .5;
+  z-index: 1;
+}
+
+.info h2 {
+  z-index: 2;
+}
+.bg-img-event {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.day {
+  font-family: 'Exo', sans-serif;
+  font-size: 72px;
+  color: #e0e0e0;
+  text-align: center;
+}
+.month {
+  font-family: 'Exo', sans-serif;
+  font-size: 21px;
+  color: #F44336;
+  text-align: center;
+}

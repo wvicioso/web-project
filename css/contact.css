@@ -69,7 +69,7 @@ textarea:focus {
  outline: none;
 }
 
-#submit {
+.submit {
   font-size: 21px;
   font-family: 'Exo', sans-serif;
   background-color: #F44336;

@@ -39,7 +39,7 @@ function openMenu() {
 
 function closeMenu() {
   var elem = document.getElementsByClassName('mobile-nav')[0];
-  elem.style.marginLeft = '-80%';
+  elem.style.marginLeft = '-100%';
 }
 
 function ValidateEmail(mail)
@@ -48,7 +48,6 @@ function ValidateEmail(mail)
   {
     return (true)
   }
-    // alert("You have entered an invalid email address!")
     return (false)
 }
 

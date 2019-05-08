@@ -13,42 +13,59 @@ h1 {
 
 p {
   text-align: center;
-  font-family: 'Exo', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  margin-left: 10%;
 }
 
 
 
 form {
-  width: 100%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 50px 0 50px 0;
+  margin: 0 auto;
+  padding: 40px 0 40px 0;
+  border-radius: 10px;
+  margin-bottom: 100px;
 }
 
 label {
   font-family: 'Exo', sans-serif;
   font-size: 32px;
-  width: 30%;
+  width: 100%;
   text-align: left;
   color: #F44336;
   position: relative;
 }
 
 input {
-  width: 30%;
+  width: 100%;
   height: 30px;
   margin: 20px 0 20px 0;
+  padding: 10px;
   font-size: 21px;
+  font-family: 'Montserrat', sans-serif;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #e0e0e0;
 }
 
 textarea {
-  width: 30%;
-  height: 50px;
+  width: 100%;
+  height: 70px;
   margin: 20px 0 20px 0;
-  font-family: 'Exo', sans-serif;
-  font-size: 32px;
+  font-size: 21px;
+  font-family: 'Montserrat', sans-serif;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #e0e0e0;
+}
+
+textarea:focus {
+ outline: none;
 }
 
 #submit {
@@ -56,7 +73,9 @@ textarea {
   font-family: 'Exo', sans-serif;
   background-color: #F44336;
   color: white;
-  height: 50px;
+  height: 100px;
+  box-shadow: 0 0 10px #e0e0e0;
+  border-radius: 5px
 }
 
 input:focus {
@@ -71,5 +90,11 @@ form span {
   position: absolute;
   bottom: 0;
   right: 0;
+  display: none;
+}
+
+#thankyou {
+  padding-bottom: 100px;
+  font-weight: bold;
   display: none;
 }

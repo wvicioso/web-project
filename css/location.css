@@ -1,7 +1,44 @@
 .loc-flex {
   display: flex;
-  width: 100%;
-  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
   align-items: center;
   padding-bottom: 100px;
+}
+
+.address {
+  color: #424242;
+  /* font-weight: 100; */
+  align-self: flex-start;
+  font-size: 21px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+iframe {
+  border-radius: 5px;
+  box-shadow: 0 0 5px #9e9e9e;
+}
+
+@media screen and (max-width: 1280px) {
+
+}
+
+@media screen and (max-width: 980px) {
+  .loc-flex {
+    flex-direction: column;
+    justify-content: space-around;
+
+  }
+
+  .address {
+    padding-bottom: 50px;
+  }
+
+}
+
+@media screen and (max-width: 737px) {
+  iframe {
+    width: 100%;
+  }
 }
